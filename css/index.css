@@ -475,7 +475,7 @@ footer {
 @media only screen and (max-width: 400px) {
     .jen-header h1 {
         font-family: futura-pt, sans-serif;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 500;
         font-style: normal;
         color: #ffffff;
@@ -483,7 +483,7 @@ footer {
     }
     .jen-header h1 a {
         font-family: futura-pt, sans-serif;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 500;
         font-style: normal;
         color: #ffffff;
@@ -495,6 +495,6 @@ footer {
         font-size: 15px;
         font-style: normal;
         color: #8DB0B2;
-        margin-top: -15px;
+        margin-top: 0px;
     }
 }
