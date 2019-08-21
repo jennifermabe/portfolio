@@ -378,6 +378,47 @@ footer {
     left: 45%;
     z-index: 0;
 }
+@media only screen and (max-width: 1200px) {
+    .moon-phases {
+        position: relative;
+        background-image: url(../images/BigMoonPhases.png);
+        background-size: 1400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+        padding: 30px 0;
+        height: 750px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .contact-btn {
+        background-color: #8DB0B2;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #ffffff;
+        border: none;
+        position: absolute;
+        top: 87%;
+        left: 50%;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .contact-btn:hover {
+        background-color: #516570;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #ffffff;
+        border: none;
+        position: absolute;
+        top: 81%;
+        left: 75%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none!important;
+    }
+}
 @media only screen and (max-width: 768px) {
     .moon-phases {
         position: relative;
@@ -402,6 +443,20 @@ footer {
         padding: 10px 20px;
         border-radius: 10px;
     }
+    .contact-btn:hover {
+        background-color: #516570;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #ffffff;
+        border: none;
+        position: absolute;
+        top: 81%;
+        left: 75%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none!important;
+    }
     .workPhoto {
         width: 100%;
         box-shadow: 2px 2px 5px rgba(0,0,0,.4);
@@ -415,5 +470,33 @@ footer {
         font-family: 'Courier New', Courier, monospace;
         color: #ffffff;
         font-style: italic;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .jen-header h1 {
+        font-family: futura-pt, sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        font-style: normal;
+        color: #ffffff;
+        margin-bottom: 0px;
+        letter-spacing: 3.8px;
+    }
+    .jen-header h1 a {
+        font-family: futura-pt, sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        font-style: normal;
+        color: #ffffff;
+        margin-bottom: 0px;
+        letter-spacing: 3.8px;
+        text-decoration: none;
+    }
+    .jen-header h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-style: normal;
+        color: #8DB0B2;
+        margin-top: -15px;
     }
 }
