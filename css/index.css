@@ -462,6 +462,12 @@ footer {
         box-shadow: 2px 2px 5px rgba(0,0,0,.4);
         margin: 20px 0px;
     }
+    .star-13 {
+        display: none;
+    }
+    .star-16 {
+        display: none;
+    }
     .jen-footer {
         width: 90%;
         border-left: 3px solid #8DB0B2;
