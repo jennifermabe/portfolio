@@ -1,0 +1,190 @@
+.case-study {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+.case-study-content {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.jenaccordian {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.jen-card {
+    border: none;
+    border-radius: 0px;
+}
+.jen-card-header {
+    background-color: #373737;
+    border-bottom: 2px solid #8DB0B2;
+    margin-bottom: 0px !important;
+}
+.jen-card-header:first-child {
+    border-radius: 0px;
+}
+.jen-card-header h2 button {
+    color: #ffffff;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.jen-card-header h2 button:hover {
+    color: #8DB0B2;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.jen-card-body {
+    background-color: #8DB0B2;
+}
+#HomepageRedesign {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.case-study p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #373737;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5;
+}
+h3 {
+    color: #373737;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+h3 a{
+    color: #373737;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3 a:hover {
+    color: #516570;
+}
+#DTPC_current_site {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#CompetitiveAnalysis {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#PieChart {
+    width: 49%;
+    margin-bottom: 15px;
+}
+#BarGraph {
+    width: 49%;
+    margin-bottom: 15px;
+}
+#Persona {
+    width: 50%;
+    float: left;
+    margin-right: 33px;
+}
+.case-study li {
+    font-family: 'Courier New', Courier, monospace;
+    color: #373737;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5;
+}
+#StoryBoard {
+    width: 100%;
+}
+#sketch-homepage {
+    width: 60%;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+#sketch-mobile-homepage {
+    width: 29%;
+    padding-bottom: 15px;
+}
+#sketch-donate {
+    width: 95%;
+    padding-bottom: 15px;
+}
+#sketch-whytrustus {
+    width: 95%;
+    padding-bottom: 15px;
+}
+#style {
+    width: 73%;
+}
+#oldLogo {
+    width: 18%;
+}
+#responsivedesign {
+    width: 100%;
+    padding-bottom: 15px;
+}
+#testing {
+    width: 50%;
+    float: right;
+}
+.jen-mobile {
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .jen-desktop {
+        display: none;
+    }
+    .jen-mobile {
+        display: block;
+    }
+    #PieChart {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #BarGraph {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #Persona {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #sketch-homepage {
+        width: 60%;
+    }
+    #sketch-mobile-homepage {
+        width: 29%;
+    }
+    #sketch-donate {
+        width: 60%;
+    }
+    #sketch-whytrustus {
+        width: 60%;
+    }
+    #colors {
+        width: 100%;
+    }
+    #sandTexture {
+        width: 100%;
+    }
+    #cubano {
+        width: 100%;
+    }
+    #tradeGothic {
+        width: 100%;
+    }
+    #oldLogo {
+        width: 60%;
+    }
+    #logoRedesign {
+        width: 100%;
+    }
+    #testing {
+        width: 100%;
+        float: none;
+    }
+    h3 {
+        margin: 20px 0px;
+    }
+}
