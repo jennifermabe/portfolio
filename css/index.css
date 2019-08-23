@@ -136,7 +136,7 @@ body {
     text-decoration: none;
 }
 .jen-header h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     font-style: normal;
     color: #8DB0B2;
@@ -171,7 +171,7 @@ body {
 }
 .jen-work h1 {
     color: #373737;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
@@ -184,7 +184,7 @@ body {
 }
 .jen-work p {
     color: #373737;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .jen-work .row {
     margin-bottom: 20px;
@@ -312,15 +312,15 @@ body {
 }
 .about p {
     color: #373737;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .about a{
     color: #373737;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .about a:hover{
     color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .about .row {
     max-width: 310px;
@@ -362,7 +362,7 @@ footer {
     border-left: 3px solid #8DB0B2;
     padding: 10px 20px;
     margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     color: #ffffff;
     font-style: italic;
 }
@@ -474,7 +474,7 @@ footer {
         border-left: 3px solid #8DB0B2;
         padding: 10px 20px;
         margin-right: auto;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Roboto Mono', monospace;
         color: #ffffff;
         font-style: italic;
     }
@@ -498,7 +498,7 @@ footer {
         text-decoration: none;
     }
     .jen-header h2 {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Roboto Mono', monospace;
         font-size: 15px;
         font-style: normal;
         color: #8DB0B2;
