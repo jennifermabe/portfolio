@@ -209,6 +209,20 @@ body {
     border: none;
     box-shadow: 1px 1px 3px rgba(0,0,0,.4);
 }
+.jen-modal-header {
+    background-color: #373737;
+}
+.jen-modal-header h5 {
+    color: #ffffff;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.jen-modal-body{
+    text-align: center;
+    background-color: #F2F2F2;
+}
 .jen-contact {
     background-color: #8DB0B2;
     position: relative;

@@ -46,8 +46,3 @@
     }, 75);
   })();
 
-  $(window).resize(function(){
-    if ($(window).width()<501) {
-     $(".jen-show").removeClass("show");
-    }
-   });
