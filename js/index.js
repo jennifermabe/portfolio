@@ -6,46 +6,48 @@
     sr.reveal('.project', {
       duration   : 600,
       distance   : '20px',
-      easing     : 'ease-out',
+      easing     : 'ease-in',
       origin     : 'bottom',
       reset      : true,
       scale      : 1,
       viewFactor : 0,
-      afterReveal  : revealChildren,
+      // afterReveal  : revealChildrenProject,
     }, 150);
     
-      var revealChildren = sr.reveal('.project-title, .project-description, .jen-work-btn', {
+      var revealChildrenProject = sr.reveal('.project-title, .project-description, .jen-work-btn', {
       duration   : 700,
       scale      : 1,
       distance   : '20px',
       origin     : 'bottom',
       reset      : true,
-      easing     : 'ease-out',
+      easing     : 'ease-in',
       viewFactor : 1,
     }, 75);
-  })();
-
-  (function scrollReveal() {
-    window.sr = ScrollReveal();
     
     sr.reveal('.jen-footer', {
       duration   : 600,
       distance   : '20px',
-      easing     : 'ease-out',
+      easing     : 'ease-in',
       origin     : 'bottom',
       reset      : true,
       scale      : 1,
       viewFactor : 0,
-      afterReveal  : revealChildren,
+      // afterReveal  : revealChildrenFooter,
     }, 150);
     
-      var revealChildren = sr.reveal('.footer-quote', {
+      var revealChildrenFooter = sr.reveal('.footer-quote', {
       duration   : 700,
       scale      : 1,
       distance   : '20px',
       origin     : 'bottom',
       reset      : true,
-      easing     : 'ease-out',
+      easing     : 'ease-in',
       viewFactor : 1,
     }, 75);
   })();
+
+  $(window).resize(function(){
+    if ($(window).width()<501) {
+     $(".jen-show").removeClass("show");
+    }
+   });
